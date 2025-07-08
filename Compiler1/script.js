@@ -1,42 +1,11 @@
-let hari='6', bulan='1', tahun='1990';
-
-switch (bulan) {
-  case '1':
-     bulan = ' Januari ';
-     break
-  case '2':
-     bulan = ' Februari ';
-     break
-  case '3':
-     bulan = ' Maret ';
-     break
-  case '4':
-     bulan = ' April ';
-     break
-  case '5':
-     bulan = ' Mei ';
-     break
-  case '6':
-     bulan = ' Juni ';
-     break
-  case '7':
-     bulan = ' Juli ';
-     break
-  case '8':
-     bulan = ' Agustus ';
-     break
-  case '9':
-     bulan = ' September ';
-     break
-  case '10':
-     bulan = ' Oktober ';
-     break
-  case '11':
-     bulan = ' November ';
-     break
-  case '12':
-     bulan = ' Desember ';
-     break     
-}
-
-console.log (hari + bulan + tahun)
+let word = 'wow JavaScript is so cool';
+let FirstWord = word[0] + word[1] + word[2];
+let secondWord = word[4] +  word[5] +  word[6] +  word[7] +  word[8] +  word[9] +  word[10] +  word[11] +  word[12]+  word[13]; 
+let thirdWord = word[15] + word[16]; 
+let fourthWord = word[18] + word[19];
+let fifthword = word[21] + word[22] + word[23] + word[24];
+console.log('First Word: ' + FirstWord);
+console.log('Second Word: ' + secondWord);
+console.log('third Word: ' + thirdWord);
+console.log('Fourth Word : ' + fourthWord);
+console.log('fifth word : ' + fifthword);
